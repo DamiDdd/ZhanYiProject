@@ -1,7 +1,6 @@
 import random
 import re
 import time
-from urllib import parse
 from urllib.parse import urlencode
 import pymysql
 import requests
@@ -299,8 +298,6 @@ def main():
         html = response1.text
         uigs_para = get_uigs_para(response1)
         params = get_cookie(response1, uigs_para)
-        # headers2 = helper_visit(params, response1)
-        # approve_url = 'https://weixin.sogou.com/approve?uuid={}'.format(uigs_para['uuid'])
         if html:
             article_urls = parse_index(html)
             for article_url in article_urls:
