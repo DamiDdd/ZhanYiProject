@@ -57,6 +57,7 @@ def get_html(url, count=1):
             proxy = get_proxy()
             if proxy:
                 print('Using', proxy)
+                count += 1
                 return get_html(url, count)
             else:
                 print('Get Proxy Failed')
@@ -112,6 +113,7 @@ def get_detail(url):
 def parse_detail(response):
     soup = BeautifulSoup(response, 'lxml')
     try:
+        # 获得具体的信息
         title = soup.select('#activity-name')[0].get_text().strip()
         nickname = soup.select('#js_profile_qrcode > div > strong')[0].get_text().strip()
         content = soup.select('#js_content')[0].get_text().strip()
@@ -146,21 +148,22 @@ def insert_into_mysql(data):
         else:
             return 0
 
-    conn = pymysql.connect(host='localhost', user='root', password='8911980', port=3306, db='test')
+    conn = pymysql.connect(host='localhost', user='root', password='password', port=3306, db='zhanyi')
     cursor = conn.cursor()
-    table_name = 'wechat'
+    table_name = 'spider'
     if (table_exists(cursor, table_name) != 1):
         cursor.execute(
-            'create table wechat(title varchar(100),content text ,nickname varchar(50) ,wechat varchar(30),date varchar(30)) ENGINE=InnoDB DEFAULT character set utf8mb4 collate utf8mb4_general_ci;')
+            'create table spider(title varchar(100),content text ,nickname varchar(50) ,wechat varchar(30),date varchar(30)) ENGINE=InnoDB DEFAULT character set utf8mb4 collate utf8mb4_general_ci;')
     title = data['title']
     content = data['content']
     nickname = data['nickname']
     wechat = data['wechat']
     date = data['date']
     try:
-        cursor.execute("insert into wechat (title,content,nickname,wechat,date) values (%s,%s,%s,%s,%s)",
+        cursor.execute("insert into spider (title,content,nickname,wechat,date) values (%s,%s,%s,%s,%s)",
                        (title, content, nickname, wechat, date))
     except:
+        print(1)
         pass
     conn.commit()
     cursor.close()
@@ -174,9 +177,9 @@ def save_to_csv(data):
     wechat = data['wechat']
     date = data['date']
     try:
-        with open('疫.csv', 'a', encoding='utf-8-sig')as f:
+        with open('spider.csv', 'a', newline='', encoding='utf-8-sig')as f:
             f.write(
-                title + '||\t\t\t\t' + content + '||\t\t\t\t' + nickname + '||\t\t\t\t' + wechat + '||\t\t\t\t' + date)
+                title + ',' + content + ',' + nickname + ',' + wechat + ',' + date)
             f.write('\n')
             f.close()
     except:
@@ -196,7 +199,7 @@ def main():
                 if article_html:
                     article_data = parse_detail(article_html)
                     # insert_into_mysql(article_data)
-                    save_to_csv(article_data)
+                    # save_to_csv(article_data)
 
 
 if __name__ == '__main__':
