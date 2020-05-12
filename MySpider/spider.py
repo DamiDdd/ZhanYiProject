@@ -174,12 +174,11 @@ def save_to_csv(data):
     title = data['title']
     content = data['content']
     nickname = data['nickname']
-    wechat = data['wechat']
     date = data['date']
     try:
         with open('spider.csv', 'a', newline='', encoding='utf-8-sig')as f:
             f.write(
-                title + ',' + content + ',' + nickname + ',' + wechat + ',' + date)
+                title + ',' + content + ',' + nickname + ',' + date)
             f.write('\n')
             f.close()
     except:
