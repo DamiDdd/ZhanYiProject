@@ -151,7 +151,7 @@ def insert_into_mysql(data):
     conn = pymysql.connect(host='localhost', user='root', password='password', port=3306, db='zhanyi')
     cursor = conn.cursor()
     table_name = 'spider'
-    if (table_exists(cursor, table_name) != 1):
+    if table_exists(cursor, table_name) != 1:
         cursor.execute(
             'create table spider(title varchar(100),content text ,nickname varchar(50) ,wechat varchar(30),date varchar(30)) ENGINE=InnoDB DEFAULT character set utf8mb4 collate utf8mb4_general_ci;')
     title = data['title']
