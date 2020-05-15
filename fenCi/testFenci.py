@@ -16,6 +16,12 @@ def table_exists(conn, table_name):
         return 0
 
 
+def closeConn(conn, cursor):
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+
 def main():
     conn = pymysql.connect(host='localhost', user='root', password='password', port=3306, db='zhanyi')
     cursor = conn.cursor()
@@ -27,6 +33,7 @@ def main():
     lexicon = ['疫中书店', '中国', '疫情']
     seg = pkuseg.pkuseg(user_dict=lexicon)
     zhPattern = re.compile(u'[\u4e00-\u9fa5]+')
+    sumDict = {}
     while True:
         row = cursor.fetchone()
         if not row:
@@ -40,15 +47,30 @@ def main():
                     dict[i] = dict[i] + 1
                 else:
                     dict[i] = 1
-        dict = sorted(dict.items(), key=lambda  kv: (kv[1],kv[0]))
-        cursor2.execute("update spider set fenci=(%s) where title=(%s)",(str(dict), row[0]))
+                if sumDict.__contains__(i):
+                    sumDict[i] = sumDict[i] + 1
+                else:
+                    sumDict[i] = 1
+        dict = sorted(dict.items(), key=lambda kv: (kv[1], kv[0]))
+        cursor2.execute("update spider set fenci=(%s) where title=(%s)", (str(dict), row[0]))
         print(dict)
-    conn.commit()
-    cursor.close()
-    conn.close()
-    conn2.commit()
-    cursor2.close()
-    conn2.close()
+    sumDict = sorted(sumDict.items(), key=lambda kv: (kv[1], kv[0]))
+    filename = "fenciRes.txt"
+    with open(filename, 'w') as file_object:
+        num = 0
+        for kv in sumDict:
+            num = num + 1
+            try:
+                file_object.write(str(kv))
+            except:
+                num = num - 1
+                continue
+            if num % 10 == 0:
+                file_object.write("\n")
+            print(kv)
+
+    closeConn(conn, cursor)
+    closeConn(conn2, cursor2)
 
 
 if __name__ == '__main__':
