@@ -2,10 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546622ae-78c5-4b03-bf87-14ef8510205f" name="Default Changelist" comment="Wordcloud">
-      <change afterPath="$PROJECT_DIR$/../ShowEarth/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowEarth/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowEarth/china.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowEarth/earth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpider/spider2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShowEarth/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/callback/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/callback/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/callback/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/echo/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/echo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/echo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/login/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/login/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/login/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/openapi/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/openapi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/openapi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/dots.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-cloud-callback-config.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-inc-dec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-onAdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-onQuery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-onRemove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-func-sum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/console-entrance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/create-collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/user-unlogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/sitemap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/style/guide.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniProject/project.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShowEarth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ShowEarth/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,9 +165,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="683" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -228,8 +314,7 @@
     <option name="totallyTimeSpent" value="22192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
