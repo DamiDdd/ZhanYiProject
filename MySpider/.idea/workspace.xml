@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c674a9ca-e402-4041-9b8b-2f8f980d0002" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../fenCi/pkuFenci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fenCi/record.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fenCi/wordCloud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/testFenci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/testFenci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/fenCi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/FenCi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fenCi/testFenci.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onceSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="-3969">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="162" selection-start-line="162" selection-end-line="163" selection-end-column="64" />
+            <state relative-caret-position="4590">
+              <caret line="170" selection-start-line="170" selection-end-line="170" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -43,11 +49,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/writeToCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="675">
+              <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spiderWithoutPorxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -87,9 +102,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="181" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -241,6 +255,9 @@
       <workItem from="1589366170407" duration="720000" />
       <workItem from="1589455358110" duration="718000" />
       <workItem from="1589466552284" duration="596000" />
+      <workItem from="1589642105706" duration="119000" />
+      <workItem from="1589678474007" duration="19000" />
+      <workItem from="1589679679735" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="spider">
       <created>1588825735809</created>
@@ -260,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106752000" />
+    <option name="totallyTimeSpent" value="107548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,7 +289,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="181" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.7308102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -298,31 +316,6 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="R Graphics" order="6" weight="0.32995737" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34861407" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3274918" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.42387733" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.4197397" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3264642" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32968238" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="R Graphics" order="6" weight="0.32995737" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -416,22 +409,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spiderWithoutPorxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3559">
+        <state relative-caret-position="27">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onceSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/writeToCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="675">
+          <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -440,11 +426,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="162" selection-start-line="162" selection-end-line="163" selection-end-column="64" />
+        <state relative-caret-position="4590">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onceSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3969">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

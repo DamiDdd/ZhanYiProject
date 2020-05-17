@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/fenCi.iml" filepath="$PROJECT_DIR$/.idea/fenCi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FenCi.iml" filepath="$PROJECT_DIR$/.idea/FenCi.iml" />
     </modules>
   </component>
 </project>
