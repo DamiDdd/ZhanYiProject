@@ -1,0 +1,229 @@
+*{
+    margin: 0;padding: 0;
+    list-style: none;
+    user-select: none;
+}
+/* 变成黑白页面 */
+/* html{
+    filter: grayscale(1);
+} */
+a{
+    text-decoration: none;
+}
+.box{
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:0 -5px 8px rgba(0,0,0,.3);
+    padding-bottom: 20px;
+}
+.header{
+    width: 750px;
+    height: 220px;
+    background: url(../png/head.png) no-repeat;
+}
+.main{
+    background-color: #FFFFFF;
+    margin-top: -30px;
+    position: relative;
+}
+.main .topBar{
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    top: -30px;
+    display: flex;
+}
+.topBar a{
+    display: block;
+    width: 375px;
+    background-color: #DDECFF;
+    color: #445063;
+    font-size: 37px;
+    text-align: center;
+}
+.topBar a:nth-child(1){
+    border-top-left-radius: 25px;
+}
+.topBar a:nth-child(2){
+    border-top-right-radius: 25px;
+}
+.topBar a.current{
+    background-color: #FFFFFF;
+    color: #005DFF;
+}
+.topBar a.current::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85px;
+    height: 100%;
+    background: url(../png/tab_current_l.png) no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+.data-view-wapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222222;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/* 今日公告 */
+.today-notice{
+    width: 650px;
+    height: 50px;line-height: 50px;
+    background: #F8F8F8 url(../png/marquee-bg-none.png) no-repeat;
+    background-size: auto 100%;
+    border-radius: 10px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.data-view{
+    width: 650px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222222;
+    font-size: 16px;
+}
+/* 设置更新容器颜色 */
+.lastUpdateTime{
+    width: 650px;
+    height: 50px;
+    line-height: 50px;
+    color: #737373;
+    font-size: 22px;
+}
+/* 设置更新时间颜色 */
+.lastUpdateTime span{
+    color: #222222;
+}
+.data-list{
+    width: 650px;
+    height: 323px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-between;
+}
+.data-list>li{
+    width: 215px;
+    height: 160px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+}
+/* 设置一览表圆角 */
+.data-list>li:nth-child(1){
+    border-top-left-radius: 20px;
+}
+.data-list>li:nth-child(3){
+    border-top-right-radius: 20px;
+}
+.data-list>li:nth-child(4){
+    border-bottom-left-radius: 20px;
+}
+.data-list>li:nth-child(6){
+    border-bottom-right-radius: 20px;
+}
+.data-list li>span{
+    font-size: 22px;
+    color: #7C7C7C;
+}
+.data-list .ChinaTotal{
+    font-size: 44px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+/* 地图容器 */
+.map{
+    width: 750px;
+    height: 700px;
+    /* margin-top: 30px; */
+}
+/* 疫情列表样式 */
+.china-list-wapper{
+    padding-top: 20px;
+}
+.china-list-wapper .title{
+    padding-left: 42px;
+}
+.china-list-wapper h1{
+    font-size: 35px;
+}
+.china-list-wapper .tip{
+    color: #424242;
+    font-size: 23px;
+}
+.china-list .areaBox .area{
+    font-weight: bold;
+}
+.china-list th.area{
+    font-weight: normal;
+}
+/* 底部容器样式 */
+.box>.bottom{
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    padding: 20px 0 10px;
+    color: #737373;
+    text-align: center;
+}
+/* 切换地图按钮样式 */
+.switchConfirm{
+    margin:30px auto 0;
+    width: 650px;height: 60px;
+    line-height: 60px;
+    background-color: #fdf1f1;
+    color: #191919;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    transition: all .5s;
+}
+.switchConfirm .text{
+    width: 100%;
+    display: flex;
+}
+.switchConfirm .text>span{
+    position: relative;
+    width: 50%;
+    text-align: center;
+    z-index: 1;
+    background-color: transparent;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+.switchConfirm .moveBlock{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;height: 100%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    transform: scale(.97,.8);
+    transition: all .5s;
+}
+.switchConfirm.active {
+    background-color: #e4f8ee;
+}
+.switchConfirm.active .moveBlock{
+    left: 50%;
+}
