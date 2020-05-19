@@ -1,6 +1,7 @@
 from wordcloud import WordCloud, ImageColorGenerator
 import matplotlib.pyplot as plt
-import  pkuFenci
+import pkuFenci
+
 
 # 生成词云
 def create_word_cloud(frequencies, font_path, mask_image):
