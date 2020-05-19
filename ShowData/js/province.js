@@ -13,8 +13,29 @@ window.onload = function() {
             if (response.ret === 0) {
                 let data = JSON.parse(response.data);
                 console.log(data);
+                // 计算距离现在时间
+                let lastDate = new Date(data.lastUpdateTime);
+                let nowDate = new Date();
+                let fromTime = nowDate - lastDate;
+                let timeStr = "";
+                fromTime = parseInt(fromTime / 1000);
+                if (fromTime >= 60) {
+                    if (fromTime >= 3600) {
+                        timeStr = parseInt(fromTime / 3600) + "小时";
+                        fromTime = fromTime % 3600 / 60;
+                        if (parseInt(fromTime)) {
+                            timeStr += parseInt(fromTime) + "分钟";
+                        }
+                    } else {
+                        timeStr = parseInt(fromTime / 60) + "分钟";
+                    }
+                } else {
+                    timeStr = fromTime + "秒";
+                }
+
                 // 设置更新时间
                 $(".lastUpdateTime .time").text(data.lastUpdateTime);
+                $(".lastUpdateTime .form-time").text(timeStr);
                 // 设置一览表数据——总
                 isShowAdd = data.isShowAdd;
                 for (provinceTotal of data.areaTree[0].children) {

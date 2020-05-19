@@ -1,36 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     user-select: none;
 }
-/* 变成黑白页面 */
-/* html{
-    filter: grayscale(1);
-} */
-a{
+
+a {
     text-decoration: none;
 }
-.box{
+
+/* 外部容器 */
+.box {
     width: 750px;
     margin: 0 auto;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow:0 -5px 8px rgba(0,0,0,.3);
-    padding-bottom: 20px;
+    box-shadow: 0 -5px 8px rgba(0, 0, 0, .3)
 }
-.header{
+
+/* 顶部容器 */
+.header {
     width: 750px;
     height: 220px;
     background: url(../png/head.png) no-repeat;
 }
-.main{
+
+/* 主要内容容器 */
+.main {
     background-color: #FFFFFF;
     margin-top: -30px;
     position: relative;
 }
-.main .topBar{
+
+/* 主要容器顶部圆角矩形 */
+.main .topBar {
     width: 100%;
     height: 85px;
     line-height: 85px;
@@ -40,7 +45,8 @@ a{
     top: -30px;
     display: flex;
 }
-.topBar a{
+
+.topBar a {
     display: block;
     width: 375px;
     background-color: #DDECFF;
@@ -48,17 +54,21 @@ a{
     font-size: 37px;
     text-align: center;
 }
-.topBar a:nth-child(1){
+
+.topBar a:nth-child(1) {
     border-top-left-radius: 25px;
 }
-.topBar a:nth-child(2){
+
+.topBar a:nth-child(2) {
     border-top-right-radius: 25px;
 }
-.topBar a.current{
+
+.topBar a.current {
     background-color: #FFFFFF;
     color: #005DFF;
 }
-.topBar a.current::before{
+
+.topBar a.current::before {
     content: "";
     display: block;
     position: absolute;
@@ -66,61 +76,43 @@ a{
     transform: translateX(-50%);
     width: 85px;
     height: 100%;
-    background: url(../png/tab_current_l.png) no-repeat;
+    background: url(../png/tab_current_r.png) no-repeat;
     background-size: 100%;
     z-index: 1;
 }
-.data-view-wapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #222222;
-    font-size: 16px;
-    margin-top: 20px;
-}
-/* 今日公告 */
-.today-notice{
-    width: 650px;
-    height: 50px;line-height: 50px;
-    background: #F8F8F8 url(../png/marquee-bg-none.png) no-repeat;
-    background-size: auto 100%;
-    border-radius: 10px;
-    padding: 0 50px;
-    box-sizing: border-box;
-    font-size: 20px;
-}
-.data-view{
-    width: 650px;
-    margin-top: 10px;
+
+/* 一览表容器 */
+.data-view {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #222222;
     font-size: 16px;
 }
-/* 设置更新容器颜色 */
-.lastUpdateTime{
-    width: 650px;
+
+/* 上次更新时间样式 */
+.lastUpdateTime {
+    width: 670px;
     height: 50px;
     line-height: 50px;
     color: #737373;
     font-size: 22px;
 }
-/* 设置更新时间颜色 */
-.lastUpdateTime span{
+
+.lastUpdateTime span {
     color: #222222;
 }
-.data-list{
-    width: 650px;
-    height: 323px;
+
+/* 一览表样式 */
+.data-list {
+    width: 670px;
+    height: 160px;
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-content:space-between;
 }
-.data-list>li{
-    width: 215px;
+
+.data-list>li {
+    width: 164px;
     height: 160px;
     font-size: 25px;
     display: flex;
@@ -129,67 +121,68 @@ a{
     align-items: center;
     color: #222222;
 }
+
 /* 设置一览表圆角 */
-.data-list>li:nth-child(1){
+.data-list>li:nth-child(1) {
     border-top-left-radius: 20px;
-}
-.data-list>li:nth-child(3){
-    border-top-right-radius: 20px;
-}
-.data-list>li:nth-child(4){
     border-bottom-left-radius: 20px;
 }
-.data-list>li:nth-child(6){
+
+.data-list>li:nth-child(4) {
+    border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.data-list li>span{
+
+/* 一览表内文字样式 */
+.data-list li>span {
     font-size: 22px;
     color: #7C7C7C;
 }
-.data-list .ChinaTotal{
+
+.data-list .ChinaTotal {
     font-size: 44px;
     margin: 5px 0;
     font-weight: bold;
 }
+
 /* 地图容器 */
-.map{
+.map {
+    margin-top: 20px;
     width: 750px;
     height: 700px;
-    /* margin-top: 30px; */
 }
-/* 疫情列表样式 */
-.china-list-wapper{
-    padding-top: 20px;
+
+.visualMap {
+    width: 670px;
+    margin: 20px auto 0;
 }
-.china-list-wapper .title{
-    padding-left: 42px;
+
+.visual {
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.china-list-wapper h1{
-    font-size: 35px;
+
+.visual>li {
+    height: 35px;
+    line-height: 35px;
+    font-size: 24px;
+    color: #222222;
+    /* box-sizing: border-box; */
+    display: flex;
 }
-.china-list-wapper .tip{
-    color: #424242;
-    font-size: 23px;
+
+.visual .rectangle {
+    width: 15px;
+    height: 33px;
+    margin-right: 15px;
 }
-.china-list .areaBox .area{
-    font-weight: bold;
-}
-.china-list th.area{
-    font-weight: normal;
-}
-/* 底部容器样式 */
-.box>.bottom{
-    width: 100%;
-    height: 15px;
-    line-height: 15px;
-    font-size: 10px;
-    padding: 20px 0 10px;
-    color: #737373;
-    text-align: center;
-}
+
 /* 切换地图按钮样式 */
-.switchConfirm{
-    margin:30px auto 0;
+.switchConfirm {
+    margin: 30px auto 0;
     width: 650px;
     height: 60px;
     line-height: 60px;
@@ -200,11 +193,13 @@ a{
     z-index: 2;
     transition: all .5s;
 }
-.switchConfirm .text{
+
+.switchConfirm .text {
     width: 100%;
     display: flex;
 }
-.switchConfirm .text>span{
+
+.switchConfirm .text>span {
     position: relative;
     width: 50%;
     text-align: center;
@@ -213,19 +208,66 @@ a{
     /* font-weight: bold; */
     font-size: 25px;
 }
-.switchConfirm .moveBlock{
+
+.switchConfirm .moveBlock {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;height: 100%;
+    width: 50%;
+    height: 100%;
     border-radius: 10px;
     background-color: #FFFFFF;
-    transform: scale(.97,.8);
+    transform: scale(.97, .8);
     transition: all .5s;
 }
+
 .switchConfirm.active {
     background-color: #e4f8ee;
 }
-.switchConfirm.active .moveBlock{
+
+.switchConfirm.active .moveBlock {
     left: 50%;
+}
+
+.china-list-wapper .china-list .newConfirm {
+    color: #005DEF;
+    background-color: #e8effc;
+}
+
+.china-list-wapper {
+    padding-top: 40px;
+}
+
+/* 列表标题样式 */
+.china-list-wapper .title {
+    padding-left: 42px;
+}
+
+.china-list-wapper h1 {
+    font-size: 35px;
+}
+
+.china-list-wapper .tip {
+    color: #424242;
+    font-size: 23px;
+}
+
+/* 底部样式 */
+.box>.bottom {
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    padding: 20px 0 10px;
+    color: #737373;
+    text-align: center;
+}
+
+.china-list tbody tr {
+    display: table-row;
+    color: #222222;
+}
+
+.china-list tbody .area {
+    font-weight: normal;
 }
