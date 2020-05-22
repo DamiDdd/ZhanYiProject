@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce55814e-cb53-4c72-8169-37dfd33c8930" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/COVID-19 prediction and show.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fenCi/wordCloudUpgrade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpider/data_new.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/betterWordcloud.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/init词图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/wordCloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/wordCloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="ce55814e-cb53-4c72-8169-37dfd33c8930" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/COVID-19 prediction and show.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
+            <state relative-caret-position="-12636">
               <caret line="219" column="2" selection-start-line="219" selection-start-column="2" selection-end-line="219" selection-end-column="2" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -61,9 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="544" />
+    <option name="y" value="158" />
     <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
@@ -136,14 +127,15 @@
       <workItem from="1589902123822" duration="329000" />
       <workItem from="1589902472431" duration="1209000" />
       <workItem from="1589903696565" duration="2368000" />
+      <workItem from="1590032159787" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10606000" />
+    <option name="totallyTimeSpent" value="10666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4162042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -176,7 +168,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/COVID-19 prediction and show.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
+        <state relative-caret-position="-12636">
           <caret line="219" column="2" selection-start-line="219" selection-start-column="2" selection-end-line="219" selection-end-column="2" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
