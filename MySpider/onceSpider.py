@@ -65,7 +65,8 @@ def get_index(page, keyword):
 def get_k_h(url):
     b = int(random.random() * 100) + 1
     a = url.find("url=")
-    url = "http://weixin.sogou.com" + url + "&k=" + str(b) + "&h=" + url[a + 4 + 21 + b: a + 4 + 21 + b + 1]
+    url = "http://weixin.sogou.com" + url + "&k=" + str(b) + \
+          "&h=" + url[a + 4 + 21 + b: a + 4 + 21 + b + 1]
     return url
 
 
