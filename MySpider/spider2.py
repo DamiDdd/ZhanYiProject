@@ -23,15 +23,17 @@ def GetHtmlText(url):
 #获取Json
 China = GetHtmlText(Get_China)
 City_Count_json = json.loads(China)
-City_Count_json = City_Count_json["data"]#将json数据中的data字段的数据提取处理
-City_Count_json = json.loads(City_Count_json)#将提取出的字符串转换为json数据
-#获取每日总信息
+# 将json数据中的data字段的数据提取处理
+City_Count_json = City_Count_json["data"]
+# 将提取出的字符串转换为json数据
+City_Count_json = json.loads(City_Count_json)
+# 获取每日总信息
 lastUpdateTime = City_Count_json["lastUpdateTime"]
-chinaTotal_json = City_Count_json["chinaTotal"]#提取处其chinaTotal字段中的数据
+chinaTotal_json = City_Count_json["chinaTotal"]
 confirmCount = str(chinaTotal_json["confirm"])
 suspectCount = str(chinaTotal_json["suspect"])
-deadCount = str(chinaTotal_json["dead"])                   #GetTextCenter(China,r"\"deadCount\": ",r",\n")      #疑似人数
-cure = str(chinaTotal_json["heal"])                             #GetTextCenter(China,r"\"cure\": ",r"\n")                 #治愈人数
+deadCount = str(chinaTotal_json["dead"])
+cure = str(chinaTotal_json["heal"])
 print("更新时间：" + lastUpdateTime + "\n" + "确诊人数为：" + confirmCount + "人\n" + "死亡人数为：" +
       deadCount + "人\n" + "疑似人数为：" + suspectCount + "人\n" + "治愈人数为：" + cure +
       "人\n" )

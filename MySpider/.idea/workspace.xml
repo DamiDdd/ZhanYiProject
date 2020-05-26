@@ -2,97 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c674a9ca-e402-4041-9b8b-2f8f980d0002" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowEarth/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/callback/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/callback/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/callback/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/echo/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/echo/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/echo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/login/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/login/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/login/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/openapi/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/openapi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/cloudfunctions/openapi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/app.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/chatroom.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/dots.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/components/chatroom/photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-cloud-callback-config.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-inc-dec.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-onAdd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-onQuery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-db-onRemove.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/code-func-sum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/console-entrance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/images/create-collection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/addFunction/addFunction.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/chooseLib/chooseLib.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/databaseGuide/databaseGuide.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/deployFunctions/deployFunctions.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/im.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/im/room/room.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/index/user-unlogin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/callback/callback.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/cloudid/cloudid.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/openapi.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/openapi/serverapi/serverapi.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/storageConsole/storageConsole.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/pages/userConsole/userConsole.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/sitemap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/miniprogram/style/guide.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiniProject/project.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShowEarth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ShowEarth/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider2.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid-19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../covid-19/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onceSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="81">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -121,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-802">
-              <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+            <state relative-caret-position="189">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -145,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/writeToCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
+            <state relative-caret-position="648">
               <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -199,8 +110,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -231,7 +142,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -392,6 +303,7 @@
       <workItem from="1589678474007" duration="19000" />
       <workItem from="1589679679735" duration="658000" />
       <workItem from="1589708138105" duration="1609000" />
+      <workItem from="1590483887092" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="spider">
       <created>1588825735809</created>
@@ -411,7 +323,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109157000" />
+    <option name="totallyTimeSpent" value="109849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +338,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27771854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -543,7 +455,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onceSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="81">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
@@ -558,16 +470,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiderWithoutPorxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/writeToCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="648">
           <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -575,10 +480,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spiderWithoutPorxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spider2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-802">
-          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+        <state relative-caret-position="189">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
