@@ -3,7 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c674a9ca-e402-4041-9b8b-2f8f980d0002" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/Cookies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/IP异常页面.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/url解析代码.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/主题网络爬虫.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/以中国为实例获取疫情数据的代码.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/微信公众号搜索.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/微信关键词搜索.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/微信爬虫虚假url.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/文本可视化.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/模拟k、h的代码.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/用于访问页面的真实url.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/结巴分词流程示意图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/论文发表量和日期.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/项目流程 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/项目流程.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../article/毕业论文正文.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../article/毕业论文正文.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid-19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../covid-19/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid-19/COVID-19 prediction and show.py" beforeDir="false" afterPath="$PROJECT_DIR$/../covid-19/COVID-19 prediction and show.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +39,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onceSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1350">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="1431">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="621">
               <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -41,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4055">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
+            <state relative-caret-position="1880">
+              <caret line="166" column="12" lean-forward="true" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -102,18 +124,18 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/testPlan.py" />
-        <option value="$PROJECT_DIR$/onceSpider.py" />
         <option value="$PROJECT_DIR$/spiderWithoutPorxy.py" />
         <option value="$PROJECT_DIR$/writeToCSV.py" />
         <option value="$PROJECT_DIR$/spider.py" />
         <option value="$PROJECT_DIR$/spider2.py" />
+        <option value="$PROJECT_DIR$/onceSpider.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="527" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -123,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,11 +156,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covid-19" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -303,7 +325,8 @@
       <workItem from="1589678474007" duration="19000" />
       <workItem from="1589679679735" duration="658000" />
       <workItem from="1589708138105" duration="1609000" />
-      <workItem from="1590483887092" duration="1308000" />
+      <workItem from="1590483887092" duration="3729000" />
+      <workItem from="1590662827051" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="spider">
       <created>1588825735809</created>
@@ -323,7 +346,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110465000" />
+    <option name="totallyTimeSpent" value="113003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,10 +358,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="527" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28993437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,17 +408,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/onceSpider.py</url>
-          <line>303</line>
+          <line>304</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/onceSpider.py</url>
-          <line>307</line>
+          <line>308</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/onceSpider.py</url>
-          <line>179</line>
+          <line>180</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -453,6 +475,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/onceSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/writeToCSV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -470,30 +512,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4055">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="1880">
+          <caret line="166" column="12" lean-forward="true" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onceSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

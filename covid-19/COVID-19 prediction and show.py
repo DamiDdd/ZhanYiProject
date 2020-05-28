@@ -158,7 +158,7 @@ days_in_future = 10
 future_forcast = np.array([i for i in range(len(dates) + days_in_future)]).reshape(-1, 1)
 adjusted_dates = future_forcast[:-10]
 
-# 可视化模块
+# 训练准备
 start = '1/22/2020'
 start_date = datetime.datetime.strptime(start, '%m/%d/%Y')
 future_forcast_dates = []
@@ -166,9 +166,9 @@ for i in range(len(future_forcast)):
     future_forcast_dates.append((start_date + datetime.timedelta(days=i)).strftime('%m/%d/%Y'))
 
 # 分别使用SVM，贝叶斯线性回归， 线性递归
+# 构建数据集
 X_train_confirmed, X_test_confirmed, y_train_confirmed, y_test_confirmed = train_test_split(days_since_1_22,
-                                                                                            world_cases, test_size=0.30,
-                                                                                            shuffle=False)
+                                                                                            world_cases, test_size=0.3,shuffle=False)
 
 # # 寻找参数部分,为SVR寻找最佳参数
 # c = [0.01, 0.1, 1]
@@ -197,7 +197,7 @@ plt.legend(['Test Data', 'SVM Predictions'])
 # 输出平均绝对误差,均方误差 下同
 print('MAE:', mean_absolute_error(svm_test_pred, y_test_confirmed))
 print('MSE:', mean_squared_error(svm_test_pred, y_test_confirmed))
-plt.show()
+# plt.show()
 
 # 多项式回归的数据准备
 poly = PolynomialFeatures(degree=3)
@@ -217,10 +217,11 @@ linear_pred = linear_model.predict(poly_future_forcast)
 print('MAE:', mean_absolute_error(test_linear_pred, y_test_confirmed))
 print('MSE:', mean_squared_error(test_linear_pred, y_test_confirmed))
 print(linear_model.coef_)
-plt.plot(y_test_confirmed)
+# plt.plot(y_test_confirmed)
+plt.plot(adjusted_dates, world_cases)
 plt.plot(test_linear_pred)
 plt.legend(['Test Data', 'Polynomial Regression Predictions'])
-plt.show()
+# plt.show()
 
 # beyesian ridge
 tol = [1e-6, 1e-5, 1e-4, 1e-3, 1e-2]
@@ -240,16 +241,16 @@ bayesian_search.fit(bayesian_poly_X_train_confirmed, y_train_confirmed)
 
 # bayesian_search.best_params_
 
-
 bayesian_confirmed = bayesian_search.best_estimator_
 test_bayesian_pred = bayesian_confirmed.predict(bayesian_poly_X_test_confirmed)
 bayesian_pred = bayesian_confirmed.predict(bayesian_poly_future_forcast)
 print('MAE:', mean_absolute_error(test_bayesian_pred, y_test_confirmed))
 print('MSE:', mean_squared_error(test_bayesian_pred, y_test_confirmed))
-plt.plot(y_test_confirmed)
+# plt.plot(y_test_confirmed)
+plt.plot(adjusted_dates, world_cases)
 plt.plot(test_bayesian_pred)
 plt.legend(['Test Data', 'Bayesian Ridge Polynomial Predictions'])
-plt.show()
+# plt.show()
 
 #  数据可视化
 adjusted_dates = adjusted_dates.reshape(1, -1)[0]
