@@ -3,26 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="c674a9ca-e402-4041-9b8b-2f8f980d0002" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/Cookies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/IP异常页面.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/url解析代码.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/主题网络爬虫.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/以中国为实例获取疫情数据的代码.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/微信公众号搜索.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/微信关键词搜索.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/微信爬虫虚假url.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/文本可视化.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/模拟k、h的代码.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/用于访问页面的真实url.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/结巴分词流程示意图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/论文发表量和日期.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/项目流程 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/项目流程.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/5-6China-confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/5-7 2003-SARS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/5-8SARS预测-中期.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/5-8SARS预测-前期.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pics/5-8SARS预测-后期.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/1.新型冠状病毒_SARS_CoV_2_全球研究现状分析_张龙浩.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/2.网络爬虫技术的研究_孙立伟.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/3.主题网络爬虫研究综述_于娟.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/4.文本可视化研究综述_唐家渝.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/5.大数据可视分析综述_任磊.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/6.中文分词算法概述_龙树全.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/7.支持向量机理论与算法研究综述_丁世飞.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献1/8.基于Python的反反爬虫技术分析与应用_余豪士.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/10.基于大数据回溯新冠肺炎的扩散趋势及中国对疫情的控制研究_赵序茅.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/11.一类潜伏期和染病期均传染的流行病模型_原三领.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/12.埃博拉病毒病的传播模型及其防控仿真_宋贽.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/13.新型冠状病毒肺炎死亡患者11例临床特征分析_安薇.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/14.传染病疫情早期预警的主要模型_王小莉.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/15.传染病预测的数学模型研究_王丙刚.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/16.Novel coronavirus 2019-nCoV early estimation of epidemiological parameters and epidemic predictions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/参考文献2/9.基于Web的数据可视化工具设计与实现_易泽顺.caj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../article/毕业论文正文.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../article/毕业论文正文.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/毕业设计用图.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../article/毕业设计用图.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../covid-19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../covid-19/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../covid-19/COVID-19 prediction and show.py" beforeDir="false" afterPath="$PROJECT_DIR$/../covid-19/COVID-19 prediction and show.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="166" column="12" lean-forward="true" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
+            <state relative-caret-position="816">
+              <caret line="166" column="12" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -132,10 +136,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="527" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,7 +165,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covid-19" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -327,6 +331,8 @@
       <workItem from="1589708138105" duration="1609000" />
       <workItem from="1590483887092" duration="3729000" />
       <workItem from="1590662827051" duration="117000" />
+      <workItem from="1591204434948" duration="732000" />
+      <workItem from="1591458061274" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="spider">
       <created>1588825735809</created>
@@ -346,7 +352,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113003000" />
+    <option name="totallyTimeSpent" value="113761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,9 +364,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="527" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28993437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -514,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="166" column="12" lean-forward="true" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
+        <state relative-caret-position="816">
+          <caret line="166" column="12" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

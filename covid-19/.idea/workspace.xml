@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce55814e-cb53-4c72-8169-37dfd33c8930" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MySpider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/Cookies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/IP异常页面.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/url解析代码.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/主题网络爬虫.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/以中国为实例获取疫情数据的代码.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/微信公众号搜索.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/微信关键词搜索.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/微信爬虫虚假url.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/文本可视化.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/模拟k、h的代码.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/用于访问页面的真实url.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/结巴分词流程示意图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/论文发表量和日期.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/项目流程 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../article/pics/项目流程.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../article/毕业论文正文.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../article/毕业论文正文.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COVID-19 prediction and show.py" beforeDir="false" afterPath="$PROJECT_DIR$/COVID-19 prediction and show.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fenCi/wordcloud.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +19,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/COVID-19 prediction and show.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4563">
+            <state relative-caret-position="564">
               <caret line="187" column="82" selection-start-line="187" selection-start-column="82" selection-end-line="187" selection-end-column="82" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -78,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -92,7 +73,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MySpider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -157,14 +138,16 @@
       <workItem from="1590656862675" duration="2968000" />
       <workItem from="1590659850617" duration="2544000" />
       <workItem from="1590662949687" duration="1210000" />
+      <workItem from="1591204279319" duration="742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21930000" />
+    <option name="totallyTimeSpent" value="22672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4162042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -236,7 +219,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/COVID-19 prediction and show.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4563">
+        <state relative-caret-position="564">
           <caret line="187" column="82" selection-start-line="187" selection-start-column="82" selection-end-line="187" selection-end-column="82" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
